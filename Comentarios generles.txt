@@ -1,0 +1,20 @@
+Taller.h y Taller.cpp: Se agregó la clase Taller para representar un tipo específico de evento. 
+Esta clase hereda de la clase base Evento y agrega atributos específicos para los talleres, como 
+tema y cupo máximo. También se implementaron los métodos de la clase, como mostrarInformacion(), 
+cargarDesdeArchivo() y guardarEnArchivo().
+
+EventoFactory.h y EventoFactory.cpp: Se agregó la clase EventoFactory para proporcionar una manera 
+de crear eventos según su tipo. Esta clase tiene un método estático crearEvento() que devuelve un 
+puntero a Evento según el tipo proporcionado por el usuario.
+
+DataManager.h y DataManager.cpp: Se agregó la clase DataManager para manejar la carga y el guardado 
+de datos de eventos desde y hacia un archivo de texto. Esta clase tiene métodos estáticos para cargarEventosDesdeArchivo() 
+y guardarEventosEnArchivo().
+
+Conferencia.h y Conferencia.cpp: Se agregó la clase Conferencia de manera similar a la clase Taller para representar 
+un tipo específico de evento. Esta clase también hereda de la clase base Evento y agrega atributos específicos para las conferencias,
+ como tema y orador. Se implementaron los métodos de la clase, como mostrarInformacion(), cargarDesdeArchivo() y guardarEnArchivo().
+
+Main2.cpp: Se agregó un nuevo archivo fuente para el programa principal. En este archivo, se implementa el bucle principal 
+del programa, que muestra un menú de opciones al usuario y realiza acciones según la opción seleccionada. Se utilizan las clases y 
+funciones definidas en los archivos anteriores para crear eventos, registrar asistentes, consultar la lista de asistentes y generar informes de eventos.

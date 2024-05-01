@@ -1,4 +1,4 @@
-//main2.cpp
+//main.cpp
 #include <iostream>
 #include <vector>
 #include "Evento.h"
